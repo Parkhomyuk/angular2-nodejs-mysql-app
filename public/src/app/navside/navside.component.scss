@@ -1,0 +1,78 @@
+/** content+sidebar styles **/
+.header{
+
+}
+section#content {
+
+  background-color: #fff;
+}
+ aside#sidebar {
+  width:8%;
+   height: 100%;
+  position: fixed;
+  background-color: black;
+}
+
+aside{
+  padding-top: 10%;
+}
+
+article {
+ /* padding: 10px 10px 30px;
+  font-size: 1.2em;
+  border-bottom: 1px solid #eee;*/
+}
+
+article h2 {
+ /* padding-bottom: 0;
+  line-height: 1.1em;
+  letter-spacing: -2px;
+  font-size: 2.5em;*/
+}
+
+article .article-info {
+ /* color: #C0c0c0;
+  font-size: 0.92em;
+  padding: 0px 0px 10px;*/
+}
+
+article .article-info a {
+  color: #ccc;
+}
+
+li{
+  margin-top: 2vh;
+}
+.side_menu{
+  color: #ffffff;
+
+}
+.side{
+  padding: 10% 0 0 5%;
+}
+.glyphicon:hover{
+  color: red;
+}
+@media screen and (max-width: 740px) {
+.side_menu{
+  visibility: hidden;
+}
+  .glyphicon{
+    margin-left: 20%;
+  }
+  #sidebar{
+    margin-top: 20%;
+
+  }
+}
+@media screen and (max-width: 1024px) {
+  .side_menu{
+    visibility: hidden;
+  }
+  .glyphicon{
+    margin-left: 20%;
+  }
+  #sidebar{
+    margin-top: 0%;
+  }
+}

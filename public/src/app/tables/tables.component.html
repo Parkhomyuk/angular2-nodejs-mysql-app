@@ -1,0 +1,156 @@
+<div class="card_table" id="table_wrapper">
+  <!--<div class="title">
+
+    <h1>{{title2}}</h1>
+    <button type="button" class="btn btn-warning btn-icon" (click)="myFunction()"><i class="fa fa-exclamation-circle" aria-hidden="true">Export to Excel</i></button>
+  </div>-->
+
+  <!--<ng2-smart-table  [settings]="settings"
+                    [source]="source"
+                    (deleteConfirm)="onDeleteConfirm($event)"
+                    (editConfirm)="onSaveConfirm($event)"
+                    (createConfirm)="onCreateConfirm($event)"  class="ng2-smart-table " >
+
+  </ng2-smart-table>&ndash;&gt;
+-->
+
+ <!-- <table class="table table-bordered" id="tableUser"  >
+    <caption >{{title}}</caption>
+    <thead>
+    <tr>
+      <th style="background-color: #f8ffda; border: 1px solid #0f0f0f"><i class="fa fa-pencil" aria-hidden="true"></i><i class="fa fa-trash" aria-hidden="true"></i></th>
+      <th style="background-color: #BCEBDD;  border: 1px solid #0f0f0f">{{settings.columns.id.title}}</th>
+      <th class="align-right" style="background-color: #BCEBDD; border: 1px solid #0f0f0f">{{settings.columns.fullName.title}}</th>
+      <th class="align-right" style="background-color: #BCEBDD; border: 1px solid #0f0f0f">{{settings.columns.profile.title}}</th>
+      <input type="text" [ngModel]="fullname"  />
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let item of users">
+      <td style="background-color: #f8ffda; border: 1px solid #0f0f0f"><i class="fa fa-pencil" aria-hidden="true"></i><i class="fa fa-trash" aria-hidden="true"></i></td>
+      <td style="background-color: #f8ffda; border: 1px solid #0f0f0f">{{item.id}}</td>
+      <td ngClass="nowrap" style="background-color: #dbe2bd; border: 1px solid #0f0f0f" value="fullname">{{item.fullname}}</td>
+      <td class="align-right" style="background-color: #f8ffda; border: 1px solid #0f0f0f">{{item.profile}}</td>
+
+    </tr>
+    </tbody>
+  </table>
+
+
+
+  <table class="table table-bordered" id="tableUser1"  >
+    <caption >{{title}}</caption>
+    <thead>
+    <tr>
+      <th style="background-color: #f8ffda; border: 1px solid #0f0f0f"><i class="fa fa-pencil" aria-hidden="true"></i><i class="fa fa-trash" aria-hidden="true"></i></th>
+      <th style="background-color: #BCEBDD;  border: 1px solid #0f0f0f">{{settingsa.columns.id.title}}</th>
+      <th class="align-right" style="background-color: #BCEBDD; border: 1px solid #0f0f0f">{{settingsa.columns.fullName.title}}</th>
+      <th class="align-right" style="background-color: #BCEBDD; border: 1px solid #0f0f0f">{{settingsa.columns.profile.title}}</th>
+
+    </tr>
+    <tr>
+    <th><input type="text" [(ngModel)]="fullname"  /></th>
+
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let item of u " >
+
+      <td style="background-color: #f8ffda; border: 1px solid #0f0f0f"><i class="fa fa-pencil" aria-hidden="true"></i><i class="fa fa-trash" aria-hidden="true"></i></td>
+      <td style="background-color: #f8ffda; border: 1px solid #0f0f0f">{{item.id}}</td>
+      <td ngClass="nowrap" style="background-color: #dbe2bd; border: 1px solid #0f0f0f" value="fullname" >{{item.fullname}}</td>
+      <td class="align-right" style="background-color: #f8ffda; border: 1px solid #0f0f0f">{{item.profile}}</td>
+
+    </tr>
+    </tbody>
+  </table>-->
+
+
+  <section id="content" class="column-right">
+
+  <div class="manager">
+    <div class="header">
+      <h3>{{title}}  </h3>   <button type="button" class="btn btn-warning btn-icon" (click)="myFunction()"><i class="fa fa-exclamation-circle" aria-hidden="true">Export to Excel</i></button>
+    </div>
+  <!--  <h3>{{title}}    <button type="button" class="btn btn-warning btn-icon" (click)="myFunction()"><i class="fa fa-exclamation-circle" aria-hidden="true">Export to Excel</i></button> </h3>-->
+  <table class="table table-bordered smarttable" >
+
+    <thead>
+    <tr>
+      <td class="zero" style="background-color: #f8ffda; border: 1px solid #0f0f0f">Manage</td>
+      <th class="first" style="background-color: #f8ffda; border: 1px solid #0f0f0f">{{settings.columns.id.title}}
+        <span #id  class="glyphicon glyphicon-chevron-up" aria-hidden="true" (click)="orderByUp('id')"></span><span  class="glyphicon glyphicon-chevron-down" aria-hidden="true" (click)="orderByDown('id')"></span>
+      </th>
+      <th class="align-right second" style="background-color: #f8ffda; border: 1px solid #0f0f0f">{{settings.columns.fullname.title}}
+        <span  class="glyphicon glyphicon-chevron-up" aria-hidden="true" (click)="orderByUpName('fullname')"></span><span  class="glyphicon glyphicon-chevron-down" aria-hidden="true" (click)="orderByDownName('fullname')"></span> </th>
+      <th class="align-right third" style="background-color: #f8ffda; border: 1px solid #0f0f0f">{{settings.columns.profile.title}}
+        <span  class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span><span  class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span>
+      </th>
+
+    </tr>
+
+    <tr class="smart">
+      <th> <span class="glyphicon glyphicon-plus" aria-hidden="true" (click)="openAdd()" style="border: 1px solid black; padding: 1vh; border-radius: 50px; margin-right: 1vw"> </span>|<span class="glyphicon glyphicon-eye-open" aria-hidden="true" style="margin-left: 1vw"> </span><span class="glyphicon glyphicon-arrow-right" aria-hidden="true" > </span></th>
+      <th><input   class="searchin"   placeholder=" id"/></th>
+      <th><input #searchBox  class="searchin" (keyup)="search(searchBox.value)" [(ngModel)]="inputName"   placeholder=" full name"/></th>
+      <th><input #searchBox class="searchin" (keyup)="search(searchBox.value)" placeholder=" profile"/></th>
+    </tr>
+    <tr class="addUser" id="addU" hidden>
+      <th class="addth">
+        <span class="glyphicon glyphicon-ok" aria-hidden="true" (click)="onAddUsers()"></span>
+        |
+        <span class="glyphicon glyphicon-remove" aria-hidden="true" (click)="closeAdd()"> </span>
+      </th>
+      <th><!--<input #inputName class="addin" [(ngModel)]="newId" placeholder=" id"/>--></th>
+      <th><input  class="addin"  [(ngModel)]="newFullname"  placeholder=" full name"/></th>
+      <th><input #searchBox class="addin"  [(ngModel)]="newProfile" placeholder=" profile"/></th>
+    </tr>
+
+    </thead>
+    <tbody>
+    <tr *ngFor="let item of  users  let i=index ">
+
+      <td id ="{{item.id}}" class="zero" style="background-color: #f8ffda; border: 1px solid #0f0f0f">
+        <div id="{{item.id+'a'}}">
+        <span   class="glyphicon glyphicon-pencil" aria-hidden="true" (click)="updateTrue(item)"> </span>
+        |
+        <span class="glyphicon glyphicon-trash" aria-hidden="true" (click)="onDeleteUsers(item.id)"> </span>
+        </div>
+         <div id="{{item.id+'b'}}" hidden>
+        <span   class="glyphicon glyphicon-ok" aria-hidden="true" (click)="onUpdateUsers(item)"></span>
+        |
+        <span  class="glyphicon glyphicon-remove" aria-hidden="true" (click)="updateFalse(item)"> </span>
+        </div>
+      </td >
+
+      <td class="first" style="background-color: #dbe2bd; border: 1px solid #0f0f0f">{{item.id}}</td>
+      <td id="{{item.id+'c'}}" hidden><input class="addin"  placeholder="{{item.fullname}}" [(ngModel)]="newFullname" ></td>
+      <td id="{{item.id+'d'}}" class="second" ngClass="nowrap" style="background-color: rgba(219, 226, 189, 0.68); border: 1px solid #0f0f0f">{{item.fullname}}</td>
+      <td id="{{item.id+'e'}}" class="align-right third" style="background-color: #dbe2bd; border: 1px solid #0f0f0f">{{item.profile}}</td>
+      <td id="{{item.id+'f'}}" hidden><input class="addin"  placeholder="{{item.profile}}" [(ngModel)]="newProfile"></td>
+    </tr>
+    </tbody>
+  </table>
+    <div class="pagers">
+
+     <div class="btn-toolbar" role="toolbar" style="margin: 0;">
+        <div class="btn-group">
+          <label style="margin-top:10px">Page {{currentIndex}}/{{pageNumber}}</label>
+        </div>
+        <div class="btn-group pull-right">
+          <ul class="pagination" >
+            <li [ngClass]="{'disabled': (currentIndex == 1 || pageNumber == 0)}" ><a  (click)="prevPage()" href="#">Prev</a></li>
+            <li *ngFor="let page of pagesIndex"  [ngClass]="{'active': (currentIndex == page)}">
+              <a (click)="setPage(page)" href="#" >{{page}}</a>
+            </li>
+            <li [ngClass]="{'disabled': (currentIndex == pageNumber || pageNumber == 0)}" ><a   (click)="nextPage()" href="#">Next</a></li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</section>
+
+</div>

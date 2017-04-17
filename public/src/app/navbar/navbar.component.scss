@@ -1,0 +1,130 @@
+.black{
+  /*width: 100%;
+  height: 100%;
+  background-color: black;*/
+  position: fixed;
+  padding-top: 0;
+  margin-top: 0;
+
+}
+
+.navbar{
+  z-index: 904;
+  box-shadow: 2px 0 3px rgba(0, 0, 0, 0.5);
+/*  height: 74px;*/
+  height: 9%;
+  width: 100%;
+  min-width: 320px;;
+  padding: 0 32px 0 40px;
+
+  .dropdown-toggle::after {
+    display: none;
+  }
+}
+.navbar-light .navbar-nav > li > a {
+  color: #ffffff;
+}
+.navbar-light .navbar-nav > li > a:hover,
+.navbar-light .navbar-nav > li > a:focus
+{
+  color: #ff1815;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: grey;
+}
+/* цвет текста (название сайта или бренда), при поднесении к нему курсора мышки или при его нахождении в фокусе */
+.navbar-light .navbar-brand:hover,
+.navbar-light .navbar-brand:focus {
+  color: #ff1815;
+}
+
+
+.imag_nav {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+.tog{
+  cursor:pointer;
+
+}
+
+
+.navbar-nav> .tog>a, .navbar-nav>li>a{
+  color: #0000ff;
+
+
+}
+.navbar-nav> .tog>a:hover{
+ /* background-color: #999999;*/
+  color: #ff1815;
+}
+.navbar-nav>li>a:hover{
+/*  background-color: #999999;*/
+  color: #ff1815;
+}
+
+/* Цвет и фон активного пункта меню, а также поднесении к нему курсора мышки или при его нахождении в фокусе */
+/*
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #ff1815;
+  background-color: #E7E7E7;
+}
+*/
+li:hover{
+ /* background-color: #999999;*/
+}
+.container-fluid{
+  background-color: black;
+  width: 100%;
+}
+.navbar{
+  background-color: black;
+}
+.navbar-toggle {
+  background-color: yellow;
+}
+.icon-bar{
+  background-color: black;
+}
+.grid{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: center;
+  justify-content: space-around;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.menuleft{
+width: 10%;
+}
+.punkt{
+  margin-top: 10vh;
+  margin-left: 1vw;
+  color: #ffffff;
+}
+ul:hover
+{
+ /* background-color: #000000;*/
+}
+.nav li  :hover{
+  background-color: #000000;
+}
+.dropdown-item{
+  background-color: white;
+}
