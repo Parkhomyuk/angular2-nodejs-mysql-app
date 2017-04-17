@@ -47,7 +47,8 @@ app.use('/', index);
 app.use('/api', tasks);
 
 app.get('/api', function (req, res) {
-    res.sendFile(path.join(__dirname+'/client/dist','index.html'))
+    /*res.sendFile(path.join(__dirname+'/client/dist','index.html'))*/
+    res.sendFile(path.join(__dirname+'/public/dist','index.html'))
 });
 
 /*app.use(function(req, res, next) {
