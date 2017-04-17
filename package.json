@@ -1,0 +1,23 @@
+{
+  "name": "formula300320171154",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "AlexParkhomyuk",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "mongojs": "^2.4.0",
+    "jade": "~1.11.0",
+    "morgan": "~1.7.0",
+    "mysql": "^2.5.4",
+    "serve-favicon": "~2.3.0",
+    "siege": "^0.2.0"
+
+  }
+}
