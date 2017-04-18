@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="55c80a85-2105-4b27-9526-f5ced2a39c1b" name="Default" comment="update+public+return+1">
+    <list default="true" id="55c80a85-2105-4b27-9526-f5ced2a39c1b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client" afterPath="$PROJECT_DIR$/client" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
@@ -95,7 +95,7 @@
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.6880734">
-              <caret line="82" column="20" selection-start-line="82" selection-start-column="20" selection-end-line="82" selection-end-column="20" />
+              <caret line="82" column="68" selection-start-line="82" selection-start-column="68" selection-end-line="82" selection-end-column="68" />
               <folding />
             </state>
           </provider>
@@ -415,12 +415,24 @@
       <option name="project" value="LOCAL" />
       <updated>1492522247643</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="update+public+return+1">
+      <created>1492522686805</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1492522686805</updated>
+    </task>
+    <task id="LOCAL-00009" summary="update+public+return+2">
+      <created>1492523035036</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1492523035036</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23393045" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -466,7 +478,9 @@
     <MESSAGE value="update+public+1" />
     <MESSAGE value="update+public+2" />
     <MESSAGE value="update+public+3" />
-    <option name="LAST_COMMIT_MESSAGE" value="update+public+3" />
+    <MESSAGE value="update+public+return+1" />
+    <MESSAGE value="update+public+return+2" />
+    <option name="LAST_COMMIT_MESSAGE" value="update+public+return+2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -845,7 +859,7 @@
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6880734">
-          <caret line="82" column="20" selection-start-line="82" selection-start-column="20" selection-end-line="82" selection-end-column="20" />
+          <caret line="82" column="68" selection-start-line="82" selection-start-column="68" selection-end-line="82" selection-end-column="68" />
           <folding />
         </state>
       </provider>

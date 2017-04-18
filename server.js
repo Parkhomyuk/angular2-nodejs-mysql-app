@@ -80,7 +80,7 @@ var app = express();
 app.set('port', (process.env.PORT || 3000));
 app.use(express.static(__dirname+'/public/dist'));
 app.get('/', function (req, res) {
-    res.send("Hello");
+    res.sendFile(path.join(__dirname+'/public/dist/','index.html'));
 });
 
 app.listen(app.get('port'), function () {
