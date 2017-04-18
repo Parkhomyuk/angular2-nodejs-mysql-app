@@ -38,7 +38,8 @@ var bodyParser = require('body-parser');
 var index = require('./routes/index');
 var tasks = require('./routes/tasks');
 
-app.use('/',express.static(__dirname+'/client/dist'));
+app.use('/',express.static(__dirname+'/public/dist'));
+/*app.use('/',express.static(__dirname+'/client/dist'));*/
 // Body Parser MW
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));
