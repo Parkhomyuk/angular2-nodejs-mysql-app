@@ -94,7 +94,7 @@ var app = express();
 var index = require('./routes/index');
 var tasks = require('./routes/tasks');
 app.set('port', (process.env.PORT || 3000));
-app.use('/',express.static(__dirname+'/public/dist'));
+app.use(express.static(__dirname+'/public/dist/'));
 var bodyParser = require('body-parser');
 // Body Parser MW
 app.use(bodyParser.json());
