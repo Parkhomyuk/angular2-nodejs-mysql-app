@@ -103,8 +103,8 @@ app.use(bodyParser.urlencoded({extended: false}));
 /*app.use('/', index);
 app.use('/api', tasks);*/
 app.get('/', function (req, res) {
-    /* res.sendFile(path.join(__dirname+'/public/dist/index.html'));*/
-     res.send('Hi!');
+    res.sendFile(path.join(__dirname+'/public/dist/index.html'));*/
+     /*res.send('Hi!');*/
 
 });
 app.listen(app.get('port'), function () {
