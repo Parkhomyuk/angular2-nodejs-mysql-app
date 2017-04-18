@@ -100,8 +100,8 @@ var bodyParser = require('body-parser');
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));
 
-app.use('/', index);
-app.use('/api', tasks);
+/*app.use('/', index);
+app.use('/api', tasks);*/
 app.get('/', function (req, res) {
     /* res.sendFile(path.join(__dirname+'/public/dist/index.html'));*/
      res.send('Hi!');
