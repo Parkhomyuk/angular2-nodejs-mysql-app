@@ -37,7 +37,7 @@ var path = require('path');
 var bodyParser = require('body-parser');
 var index = require('./routes/index');
 var tasks = require('./routes/tasks');
-
+app.set('port', (process.env.PORT || 3000));
 app.use('/',express.static(__dirname+'/public/dist'));
 /*app.use('/',express.static(__dirname+'/client/dist'));*/
 // Body Parser MW
@@ -60,8 +60,12 @@ app.get('/api', function (req, res) {
 
 
 
-app.listen(3000, function () {
+/*app.listen(3000, function () {
     console.log('Example listening on port 3000!');
+});*/
+app.listen(app.get('port'), function () {
+    console.log('App is running, server is listening on port ', app.get('port'));
+
 });
 
 module.exports = app;
