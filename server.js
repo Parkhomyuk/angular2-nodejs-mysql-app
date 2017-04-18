@@ -38,7 +38,8 @@ var bodyParser = require('body-parser');
 var index = require('./routes/index');
 var tasks = require('./routes/tasks');
 app.set('port', (process.env.PORT || 3000));
-app.use('/',express.static(__dirname+'/public/dist'));
+app.use(express.static(__dirname+'/public/dist'));
+/*app.use('/',express.static(__dirname+'/public/dist'));*/
 /*app.use('/',express.static(__dirname+'/client/dist'));*/
 // Body Parser MW
 app.use(bodyParser.json());
@@ -49,7 +50,8 @@ app.use('/api', tasks);
 
 app.get('/api', function (req, res) {
     /*res.sendFile(path.join(__dirname+'/client/dist','index.html'))*/
-    res.sendFile(path.join(__dirname+'/public/dist','index.html'))
+   /* res.sendFile(path.join(__dirname+'/public/dist/','index.html'))*/
+    res.send('Hello');
 });
 
 /*app.use(function(req, res, next) {
