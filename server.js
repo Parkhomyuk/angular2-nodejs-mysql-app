@@ -79,7 +79,7 @@ app.use('/api', tasks);
 app.set('port', (process.env.PORT || 5000));
 
 
-app.get('/', function (req, res) {
+app.get('/api', function (req, res) {
     res.send("Hi")
 });
 
