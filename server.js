@@ -67,18 +67,8 @@ module.exports = app;
 */
 var express = require('express');
 var app = express();
-var path = require('path');
-var bodyParser = require('body-parser');
-var index = require('./routes/index');
-var tasks = require('./routes/tasks');
+app.set('port', (process.env.PORT || 5000));
 
-app.use('/',express.static(__dirname+'/client/dist'));
-// Body Parser MW
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({extended: false}));
-
-app.use('/', index);
-app.use('/api', tasks);
 
 app.get('/', function (req, res) {
     res.send("Hi")
@@ -92,8 +82,7 @@ app.get('/', function (req, res) {
 
 
 
-app.listen(3000, function () {
-    console.log('Example listening on port 3000!');
+app.listen(app.get('port'), function() {
+    console.log('Node app is running on port', app.get('port'));
 });
-
 module.exports = app;
