@@ -67,6 +67,15 @@ module.exports = app;
 */
 var express = require('express');
 var app = express();
+var path = require('path');
+var bodyParser = require('body-parser');
+var index = require('./routes/index');
+var tasks = require('./routes/tasks');
+app.use('/',express.static(__dirname+'/public/dist'));
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({extended: false}));
+app.use('/', index);
+app.use('/api', tasks);
 app.set('port', (process.env.PORT || 5000));
 
 
