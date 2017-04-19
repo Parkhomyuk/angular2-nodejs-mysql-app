@@ -80,8 +80,8 @@ app.set('port', (process.env.PORT || 5000));
 
 
 app.get('/api', function (req, res) {
-   /* res.sendFile(path.join(__dirname+'/public/dist/','index.html'));*/
-    res.send("Hello");
+   res.sendFile(path.join(__dirname+'/public/dist/','index.html'));
+
 });
 
 /*app.use(function(req, res, next) {
