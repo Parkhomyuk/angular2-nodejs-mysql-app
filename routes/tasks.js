@@ -11,15 +11,22 @@ var mysql=require('mysql');
     database : 'mytaskslist',
     debug: false
 });*/
-var pool=mysql.createPool({
+/*var pool=mysql.createPool({
     connectionLimit:1000,
     host     : 'us-cdbr-iron-east-03.cleardb.net',
     user     : 'bab2331e12f0d8',
     password : 'a2030da8',
     database : 'heroku_0ed83a93931eb6b',
     debug: false
+});*/
+var pool=mysql.createPool({
+    connectionLimit:1000,
+    host     : 'sql11.freemysqlhosting.net',
+    user     : 'sql11169780',
+    password : 'dACIk8J2Tr',
+    database : 'sql11169780',
+    debug: false
 });
-
 /*===============================================*/
 /* GET member listing. */
 router.get('/tasks', function(req, res) {
