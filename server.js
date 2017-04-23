@@ -113,7 +113,7 @@ app.use(bodyParser.json());
 
 
 
-app.get('/api', function(req, res){
+app.get('/', function(req, res){
     /*res.sendFile(path.join(__dirname+'/public/dist/','index.html'));*/
     res.send('Hi!');
 });
