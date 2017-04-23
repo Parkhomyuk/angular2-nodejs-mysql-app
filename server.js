@@ -71,7 +71,7 @@ var bodyParser = require('body-parser');
 var app = express();
 var path = require('path');
 app.engine('html', require('ejs').renderFile);
-app.set('view engine','html');
+/*app.set('view engine','html');*/
 var index = require('./routes/index');
 var tasks = require('./routes/tasks');
 app.use('/',express.static(__dirname+'/public/dist'));
