@@ -47,8 +47,8 @@
       <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4119497">
-              <caret line="73" column="32" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.6415094">
+              <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -555,12 +555,24 @@
       <option name="project" value="LOCAL" />
       <updated>1492938698598</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="init 36">
+      <created>1492939024794</created>
+      <option name="number" value="00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1492939024794</updated>
+    </task>
+    <task id="LOCAL-00047" summary="init 37">
+      <created>1492939888036</created>
+      <option name="number" value="00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1492939888036</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1918" height="1038" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23617022" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -601,8 +613,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="update+public+return+12" />
-    <MESSAGE value="update+public+return+13" />
     <MESSAGE value="update+public+return+14" />
     <MESSAGE value="update+public+return+15" />
     <MESSAGE value="update+public+return+16" />
@@ -626,7 +636,9 @@
     <MESSAGE value="init 33" />
     <MESSAGE value="init 34" />
     <MESSAGE value="init 35" />
-    <option name="LAST_COMMIT_MESSAGE" value="init 35" />
+    <MESSAGE value="init 36" />
+    <MESSAGE value="init 37" />
+    <option name="LAST_COMMIT_MESSAGE" value="init 37" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -689,8 +701,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4119497">
-          <caret line="73" column="32" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.6415094">
+          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
           <folding />
         </state>
       </provider>

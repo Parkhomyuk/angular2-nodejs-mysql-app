@@ -24,12 +24,14 @@ app.use(bodyParser.urlencoded({extended: false}));
 
 app.use('/', index);
 app.use('/api', tasks);
-
+app.get('/api', function (req, res) {
+    res.sendFile(path.join(__dirname+'/client/dist','index.html'))
+});
 app.listen(port, function(){
     console.log('Server started on port '+port);
 });
 
-
+module.exports = app;
 
 /*
 var express = require('express');
