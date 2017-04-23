@@ -66,9 +66,12 @@ app.listen(3000, function () {
 module.exports = app;
 */
 var express = require('express');
+var bodyParser = require('body-parser');
+
 var app = express();
 var path = require('path');
-var bodyParser = require('body-parser');
+app.engine('html', require('ejs').renderFile);
+app.set('view engine','html');
 var index = require('./routes/index');
 var tasks = require('./routes/tasks');
 app.use('/',express.static(__dirname+'/public/dist'));
