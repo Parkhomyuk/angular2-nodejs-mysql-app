@@ -24,7 +24,7 @@ app.use(bodyParser.urlencoded({extended: false}));
 
 app.use('/', index);
 app.use('/api', tasks);
-app.get('/api', function (req, res) {
+app.get('/', function (req, res) {
     res.sendFile(path.join(__dirname+'/public/dist','index.html'))
 });
 app.listen(5000, function(){

@@ -47,8 +47,8 @@
       <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.29402515">
-              <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+            <state vertical-scroll-proportion="0.6949686">
+              <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -284,18 +284,6 @@
       <created>1490864236181</created>
       <option name="number" value="Default" />
       <updated>1490864236181</updated>
-    </task>
-    <task id="LOCAL-00001" summary="host on heroku">
-      <created>1492360851728</created>
-      <option name="number" value="00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1492360851728</updated>
-    </task>
-    <task id="LOCAL-00002" summary="update">
-      <created>1492373780525</created>
-      <option name="number" value="00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1492373780525</updated>
     </task>
     <task id="LOCAL-00003" summary="update+public">
       <created>1492464411665</created>
@@ -579,12 +567,24 @@
       <option name="project" value="LOCAL" />
       <updated>1492940491343</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="init 40">
+      <created>1492940652778</created>
+      <option name="number" value="00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1492940652828</updated>
+    </task>
+    <task id="LOCAL-00051" summary="init 41">
+      <created>1492941189635</created>
+      <option name="number" value="00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1492941189635</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1918" height="1038" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23617022" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -625,8 +625,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="update+public+return+16" />
-    <MESSAGE value="update+public+return+17" />
     <MESSAGE value="update+public+return+18" />
     <MESSAGE value="update+public+return+19" />
     <MESSAGE value="update+public+return+20" />
@@ -650,7 +648,9 @@
     <MESSAGE value="init 37" />
     <MESSAGE value="init 38" />
     <MESSAGE value="init 39" />
-    <option name="LAST_COMMIT_MESSAGE" value="init 39" />
+    <MESSAGE value="init 40" />
+    <MESSAGE value="init 41" />
+    <option name="LAST_COMMIT_MESSAGE" value="init 41" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -713,8 +713,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29402515">
-          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+        <state vertical-scroll-proportion="0.6949686">
+          <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
           <folding />
         </state>
       </provider>
