@@ -114,7 +114,7 @@ app.use(bodyParser.json());
 
 
 app.get('/api', function(req, res){
-    res.sendFile(path.join('/public/dist/','index.html'));
+    res.sendFile(path.join(__dirname+'/public/dist/','index.html'));
 });
 
 app.listen(app.get('port'), function() {
