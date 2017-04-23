@@ -11,12 +11,12 @@ var tasks = require('./routes/tasks');
 var app = express();
 app.set('port', (process.env.PORT || 5000));
 //View Engine
-app.set('views', path.join(__dirname, 'views'));
+app.set('views', path.join(__dirname, 'public/dist'));
 app.set('view engine', 'ejs');
 app.engine('html', require('ejs').renderFile);
 
 // Set Static Folder
-app.use(express.static(path.join(__dirname, 'public/src')));
+app.use(express.static(path.join(__dirname, 'public/dist')));
 
 // Body Parser MW
 app.use(bodyParser.json());
@@ -25,10 +25,10 @@ app.use(bodyParser.urlencoded({extended: false}));
 app.use('/', index);
 app.use('/api', tasks);
 app.get('/api', function (req, res) {
-    res.sendFile(path.join(__dirname+'/client/dist','index.html'))
+    res.sendFile(path.join(__dirname+'/public/dist','index.html'))
 });
-app.listen(port, function(){
-    console.log('Server started on port '+port);
+app.listen(5000, function(){
+    console.log('Server started on port '+app.get('port'));
 });
 
 module.exports = app;
