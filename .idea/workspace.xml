@@ -47,8 +47,8 @@
       <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6415094">
-              <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.29402515">
+              <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -567,7 +567,19 @@
       <option name="project" value="LOCAL" />
       <updated>1492939888036</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="init 38">
+      <created>1492940129059</created>
+      <option name="number" value="00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1492940129059</updated>
+    </task>
+    <task id="LOCAL-00049" summary="init 39">
+      <created>1492940491343</created>
+      <option name="number" value="00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1492940491343</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -613,8 +625,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="update+public+return+14" />
-    <MESSAGE value="update+public+return+15" />
     <MESSAGE value="update+public+return+16" />
     <MESSAGE value="update+public+return+17" />
     <MESSAGE value="update+public+return+18" />
@@ -638,7 +648,9 @@
     <MESSAGE value="init 35" />
     <MESSAGE value="init 36" />
     <MESSAGE value="init 37" />
-    <option name="LAST_COMMIT_MESSAGE" value="init 37" />
+    <MESSAGE value="init 38" />
+    <MESSAGE value="init 39" />
+    <option name="LAST_COMMIT_MESSAGE" value="init 39" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -701,8 +713,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6415094">
-          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.29402515">
+          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
           <folding />
         </state>
       </provider>
