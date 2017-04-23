@@ -28,8 +28,11 @@ var pool=mysql.createPool({
     debug: false
 });
 /*===============================================*/
+
+
+
 /* GET member listing. */
-/*router.get('/tasks', function(req, res) {
+router.get('/tasks', function(req, res) {
     pool.getConnection(function(err, connection) {
         if (err) {
             console.error("An error occurred: " + err);
@@ -60,7 +63,7 @@ console.log(req.params);
         if (err) {
             console.error("An error occurred: " + err);
         }
-      /!*  connection.query('select * from members where fullname=?', [req.params.term], function(err, rows) {*!/
+      /*  connection.query('select * from members where fullname=?', [req.params.term], function(err, rows) {*/
         connection.query('select * from members where fullname like ?', [req.params.term+'%'], function(err, rows) {
             if (err) {
                 throw err;
@@ -156,7 +159,7 @@ router.post('/tasks', function(req, res) {
 });
 
 router.put('/tasks/:id', function(req, res) {
-  /!*  req.assert('lastName', 'Last Name is required').notEmpty();*!/
+  /*  req.assert('lastName', 'Last Name is required').notEmpty();*/
 
     pool.getConnection(function(err, connection) {
         if (err) {
@@ -186,7 +189,7 @@ router.put('/tasks/:id', function(req, res) {
 
     });
 
-});*/
+});
 
 /*
 router.get('/tasks/:par', function(req, res) {

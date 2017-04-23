@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="55c80a85-2105-4b27-9526-f5ced2a39c1b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/tasks.js" afterPath="$PROJECT_DIR$/routes/tasks.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
     </list>
     <ignored path="formula300320171154.iws" />
@@ -27,8 +28,8 @@
       <file leaf-file-name="tasks.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/tasks.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-90.666664">
-              <caret line="144" column="21" selection-start-line="144" selection-start-column="21" selection-end-line="144" selection-end-column="21" />
+            <state vertical-scroll-proportion="-13.481482">
+              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -37,8 +38,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.4074073">
-              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+            <state vertical-scroll-proportion="-1.2592592">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -47,8 +48,8 @@
       <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6949686">
-              <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+            <state vertical-scroll-proportion="0.7216981">
+              <caret line="27" column="47" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -122,8 +123,8 @@
         <option value="$PROJECT_DIR$/client/src/app/tables/tables.component.html" />
         <option value="$PROJECT_DIR$/Procfile.js" />
         <option value="$PROJECT_DIR$/Procfile.txt" />
-        <option value="$PROJECT_DIR$/routes/tasks.js" />
         <option value="$PROJECT_DIR$/client/src/app/tables/tables.component.ts" />
+        <option value="$PROJECT_DIR$/routes/tasks.js" />
         <option value="$PROJECT_DIR$/server.js" />
       </list>
     </option>
@@ -284,18 +285,6 @@
       <created>1490864236181</created>
       <option name="number" value="Default" />
       <updated>1490864236181</updated>
-    </task>
-    <task id="LOCAL-00003" summary="update+public">
-      <created>1492464411665</created>
-      <option name="number" value="00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1492464411665</updated>
-    </task>
-    <task id="LOCAL-00004" summary="update+public">
-      <created>1492464620469</created>
-      <option name="number" value="00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1492464620469</updated>
     </task>
     <task id="LOCAL-00005" summary="update+public+1">
       <created>1492506458938</created>
@@ -579,12 +568,24 @@
       <option name="project" value="LOCAL" />
       <updated>1492941189635</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="init 42">
+      <created>1492943194266</created>
+      <option name="number" value="00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1492943194266</updated>
+    </task>
+    <task id="LOCAL-00053" summary="init 43">
+      <created>1492943384726</created>
+      <option name="number" value="00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1492943384726</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1918" height="1038" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23617022" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -625,8 +626,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="update+public+return+18" />
-    <MESSAGE value="update+public+return+19" />
     <MESSAGE value="update+public+return+20" />
     <MESSAGE value="update+public+return+21" />
     <MESSAGE value="update+public+return+22" />
@@ -650,7 +649,9 @@
     <MESSAGE value="init 39" />
     <MESSAGE value="init 40" />
     <MESSAGE value="init 41" />
-    <option name="LAST_COMMIT_MESSAGE" value="init 41" />
+    <MESSAGE value="init 42" />
+    <MESSAGE value="init 43" />
+    <option name="LAST_COMMIT_MESSAGE" value="init 43" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -697,24 +698,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/tasks.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-90.666664">
-          <caret line="144" column="21" selection-start-line="144" selection-start-column="21" selection-end-line="144" selection-end-column="21" />
+        <state vertical-scroll-proportion="-13.481482">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.4074073">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        <state vertical-scroll-proportion="-1.2592592">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6949686">
-          <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+        <state vertical-scroll-proportion="0.7216981">
+          <caret line="27" column="47" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
           <folding />
         </state>
       </provider>
