@@ -99,7 +99,8 @@ var express = require('express');
 var bodyParser = require('body-parser');
 var path = require('path');
 var app = express();
-
+app.use('/', index);
+app.use('/api', tasks);
 app.set('port', (process.env.PORT || 5000));
 app.use(express.static(__dirname + '/public/dist'));
 app.set('views', __dirname + '/public/dist/views');
@@ -114,8 +115,8 @@ app.use(bodyParser.json());
 
 
 app.get('/', function(req, res){
-    /*res.sendFile(path.join(__dirname+'/public/dist/','index.html'));*/
-    res.send('Hi!');
+    res.sendFile(path.join(__dirname+'/public/dist/','index.html'));
+
 });
 
 app.listen(app.get('port'), function() {
